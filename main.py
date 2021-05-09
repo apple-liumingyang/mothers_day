@@ -18,6 +18,12 @@ def transform_format(rgb):
 
 
 def gen_cloud(file_path, name):
+    """
+    生成词云
+    :param file_path:
+    :param name:
+    :return:
+    """
     words = multidict.MultiDict()
 
     # 初始化两个最大权重的
@@ -52,6 +58,10 @@ def gen_cloud(file_path, name):
 
 
 def main():
+    """
+    程序主入口
+    :return:
+    """
     gen_cloud('images/mother.jpeg', '母亲节快乐')
 
 
