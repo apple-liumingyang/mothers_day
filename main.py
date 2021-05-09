@@ -54,7 +54,7 @@ def gen_cloud(file_path, name):
     plt.axis('off')
     plt.imshow(word_cloud.recolor(color_func=bimg_colors))
     plt.savefig(f'{name}.png')
-    # plt.show()
+    plt.show()
 
 
 def main():
