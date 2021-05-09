@@ -31,7 +31,7 @@ def gen_cloud(file_path, name):
     words.add(name, 12)
 
     # 随意插入新的词语
-    for i in range(1000):
+    for _ in range(1000):
         words.add('妈妈', numpy.random.randint(1, 5))
         words.add('您辛苦了', numpy.random.randint(1, 5))
         words.add(name, numpy.random.randint(1, 5))
@@ -54,7 +54,7 @@ def gen_cloud(file_path, name):
     plt.axis('off')
     plt.imshow(word_cloud.recolor(color_func=bimg_colors))
     plt.savefig(f'{name}.png')
-    plt.show()
+    # plt.show()
 
 
 def main():
