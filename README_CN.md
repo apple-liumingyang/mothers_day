@@ -14,6 +14,8 @@ git clone https://gitee.com/apple-liumingyang/mothers_day.git
 
 ### 2 创建虚拟环境
 ```shell
+cd mothers_day/
+
 python3 -m venv venv
 ```
 
