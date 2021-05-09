@@ -1,32 +1,32 @@
 # Mother's Day
-👩 Happy Mothers' Day 🎉🎁
-> Author:  - MINGYANG LIU
+👩 母亲节快乐 🎉🎁
+> 作者： - 刘铭洋
 
-# Run the project
-### 1 Pull project to local
+# 运行项目
+### 1 拉取项目到本地
 ```shell
 git clone https://github.com/apple-liumingyang/mothers_day.git
 ```
-If the internet speed is very slow, you can use the following command
+如果网速很慢，则可以使用以下命令
 ```shell
 git clone https://gitee.com/apple-liumingyang/mothers_day.git
 ```
 
-### 2 Create a virtual environment
+### 2 创建虚拟环境
 ```shell
 python3 -m venv venv
 ```
 
-### 3 Activate the virtual environment
+### 3 激活虚拟环境
 ```shell
 source venv/bin/activate
 ```
-### 4 Install project dependencies
+### 4 安装项目依赖
 ```shell
 python3 -m pip install -r requirements.txt
 ```
 
-### 5 Startup project
+### 5 启动项目
 ```shell
 python3 main.py
 ```
