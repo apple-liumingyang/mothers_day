@@ -62,6 +62,7 @@ def main():
     程序主入口
     :return:
     """
+
     gen_cloud('images/mother.jpeg', '母亲节快乐')
 
 
